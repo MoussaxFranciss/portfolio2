@@ -84,3 +84,81 @@ h1 {
   margin-top: 20px;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .header {
+    height: 150px; 
+  }
+
+  .circle {
+    width: 80px; 
+    height: 80px;
+  }
+
+  .card {
+    max-width: 90%; 
+    padding: 20px; 
+  }
+
+  .profile-img {
+    width: 100px; 
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .location {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .stats {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .stats div {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 120px;
+  }
+
+  .circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card {
+    padding: 15px; 
+  }
+
+  .profile-img {
+    width: 80px; 
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .location {
+    font-size: 10px; 
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .stats {
+    font-size: 12px;
+  }
+}
